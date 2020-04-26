@@ -1,0 +1,244 @@
+.productDetail {
+    width           : 100%;
+    background-image: url('~@/assets/images/officialAccount/bg1.png');
+    background-size : 100% auto;
+    box-sizing      : border-box;
+    background-color: #231b4f;
+    background-repeat: no-repeat;
+    .product-detail-wrap {
+        width: 100%;
+
+        .title-wrap {
+            margin-top     : 46px;
+            display        : flex;
+            justify-content: space-between;
+            box-sizing     : border-box;
+            padding        : 0 36px;
+
+            .title {
+                font-size: 34px;
+                color    : #fff;
+
+                .line {
+                    display         : inline-block;
+                    width           : 6px;
+                    height          : 32px;
+                    background-color: #fcd58e;
+                }
+
+                .type {
+                    color    : #fddb92;
+                    font-size: 34px;
+                }
+            }
+
+            .sale-volume {
+                font-size: 28px;
+                color    : #fff;
+            }
+        }
+
+        .banner-wrap {
+            width : 650px;
+            margin: 36px auto 20px;
+
+            img {
+                height: 269px;
+            }
+        }
+
+        .server {
+            box-sizing: border-box;
+            padding   : 0 30px;
+        }
+
+        .product-detail-con {
+            margin-top: 20px;
+
+            .zf {
+                font-size: 30px;
+                color    : rgba(255, 255, 255, 0.7);
+                padding  : 18px 0;
+
+                .dot {
+                    display         : inline-block;
+                    width           : 8px;
+                    height          : 8px;
+                    background-color: #cfced3;
+                }
+
+                .number {
+                    color    : #facd88;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+
+    .place-order {
+        position: fixed;
+        left    : 0;
+        bottom  : 0;
+        width   : 100%;
+        height  : 218px;
+        background-image: linear-gradient(to right, #2f2042 0%,
+                #322345 34%,
+                #3c2745 100%);
+
+        .specification-wrap {
+            box-sizing     : border-box;
+            padding        : 24px 30px 16px;
+            display        : flex;
+            justify-content: space-between;
+            align-items    : center;
+
+            .specification {
+                color    : rgba(255, 255, 255, 0.7);
+                font-size: 30px;
+
+                .month,
+                .year {
+                    background-color: #0d0d0d;
+                    border-radius   : 10px;
+                    border          : solid 1px #9691bf;
+                    color           : #fcd68f;
+                    padding         : 6px 20px;
+                }
+
+                .active {
+                    background-color: #fddb92;
+                    color           : #1a1642;
+                }
+            }
+        }
+
+        .order {
+            box-sizing     : border-box;
+            padding        : 18px 30px 10px;
+            display        : flex;
+            justify-content: space-between;
+            align-items    : center;
+
+            .money {
+
+                font-size: 30px;
+                color    : rgba(255, 255, 255, 0.7);
+
+                .rmb {
+                    font-size: 27px;
+                    color    : #ffb005;
+
+                    span {
+                        font-size: 50px;
+                    }
+                }
+            }
+
+            .btn-wrap {
+                button {
+                    width    : 249px;
+                    height   : 76px;
+                    font-size: 36px;
+                    background-image: linear-gradient(180deg,
+                            #ffe69c 0%,
+                            #f6b977 100%);
+                    border-radius: 40px;
+                }
+            }
+        }
+    }
+
+    .order-res {
+        width           : 400px;
+        height          : 220px;
+        background-color: #ffffff;
+        border-radius   : 20px;
+        display         : flex;
+        flex-direction  : column;
+        align-items     : center;
+        justify-content : space-evenly;
+
+        .iconfont {
+            font-size: 60px;
+        }
+
+        .icon-gongneng_chenggong {
+
+            color: #3bbf37;
+        }
+
+        p {
+            font-size: 38px;
+            color    : #211b4f;
+        }
+    }
+    .share-popup{
+        background-color: #ffe5cb;
+    }
+    .share-wrap {
+        width           : 100%;
+        height          : 387px;
+       .title-wrap{
+           padding: 10px 0 0;
+       }
+        h1 {
+            color     : #211b4f;
+            font-size : 38px;
+            text-align: center;
+            position  : relative;
+            background-image: url('~@/assets/images/officialAccount/horizontal-line.png');
+            background-size: 100% 4px;
+            background-repeat: no-repeat;
+            background-position-y:center;
+            // margin-top: 40px;
+        }
+
+        // h1:before,
+        // h1:after {
+        //     content         : '';
+        //     display         : block;
+        //     width           : 261px;
+        //     height          : 2px;
+        //     background-color: #9a693a;
+        //     opacity         : 0.45;
+        //     position        : absolute;
+        //     top             : 50%;
+        // }
+
+        h1:before {
+            left: 33px;
+
+        }
+
+        h1:after {
+            right: 33px;
+
+        }
+        .share-box{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+            li{
+                .icon-wrap{
+                    width: 126px;
+                    height: 126px;
+                    line-height: 126px;
+                    background-color: #fff;
+                    border-radius: 50%;
+                    text-align: center;
+                    margin-bottom: 24px;
+                    img{
+                        margin-top: 16px;
+                        display: inline-block;
+                        width: 89px;
+                        height: 89px;
+                    }
+                }
+                p{
+                    color: #915e2c;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}

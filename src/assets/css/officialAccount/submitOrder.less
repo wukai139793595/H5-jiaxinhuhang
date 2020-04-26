@@ -1,0 +1,136 @@
+.order {
+    padding-bottom  : 148px;
+    background-color: #1e1848;
+    background-image: url('~@/assets/images/officialAccount/bg1.png');
+    background-size : 100% auto;
+    box-sizing      : border-box;
+    background-repeat: no-repeat;
+    &.isQuote{
+      padding-left:0;
+      padding-right:0;
+      padding-bottom:40px;
+      background-image:none;
+      background-color:transparent;
+      .btn-wrap{
+        position:relative;
+      }
+      .van-form {
+        padding-let:0;
+        padding-right:0;
+      }
+    }
+    .title-wrap {
+        width : 100%;
+        height     : 76px;
+        line-height: 76px;
+        box-sizing : border-box;
+        padding    : 0 40px;
+        background:rgba(16,12,30,0.3);
+      margin-bottom:30px;
+        .line {
+            display         : inline-block;
+            width           : 6px;
+            height          : 32px;
+            background-color: #fcd58e;
+            margin-right    : 6px;
+        }
+
+        .word {
+            font-size: 34px;
+            color    : #fff;
+        }
+    }
+
+    .my-info {
+        .van-form {
+          padding:0 40px 40px;
+
+        }
+    }
+
+    .btn-wrap {
+        position: absolute;
+        bottom  : 0;
+        left    : 0;
+        padding : 25px 35px;
+        width   : 100%;
+
+        /deep/ .van-button {
+            height       : 98px;
+            background   : linear-gradient(to bottom, #ffe69c, #f6b977);
+            border       : 0;
+            border-bottom: 8px solid #b1742e;
+            font-size    : 42px;
+            color        : #201d56;
+        }
+    }
+
+    .product-box {
+        box-sizing: border-box;
+        padding   : 0 40px;
+        .product:not(:first-child){
+            margin-top: 20px;
+        }
+        .product {
+            border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+
+            padding-bottom: 20px;
+            .month-wrap {
+                display        : flex;
+                justify-content: space-between;
+                align-items    : center;
+
+                .name {
+                    color    : rgba(255, 255, 255, 0.7);
+                    font-size: 30px;
+                }
+
+                .month {
+                    width          : 248px;
+                    height         : 76px;
+                    color          : rgba(252, 214, 143, 1);
+                    font-size      : 30px;
+                    border-radius  : 10px;
+                    border         : solid 1px rgba(150, 145, 191, 1);
+                    display        : flex;
+                    justify-content: space-between;
+                    align-items    : center;
+                    box-sizing     : border-box;
+                    padding        : 10px 16px;
+
+                    img {
+                        width : 30px;
+                        height: 18px;
+                    }
+                }
+            }
+
+            .number-wrap {
+                display        : flex;
+                justify-content: space-between;
+                align-items    : center;
+                margin-top: 20px;
+                .number {
+                    display    : flex;
+                    align-items: center;
+                    color      : rgba(255, 255, 255, 0.7);
+                    font-size  : 30px;
+
+                    .step {
+                        margin-left: 12px;
+                    }
+                }
+                .money{
+                    color: rgba(251, 211, 139, 1);
+                    font-size: 32px;
+                }
+            }
+        }
+        .total-money{
+            font-size: 36px;
+            color: rgba(251, 211, 139, 1);
+            text-align: right;
+            margin-top: 20px;
+        }
+    }
+}

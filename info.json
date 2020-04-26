@@ -1,0 +1,42 @@
+{
+    "msg": "success",
+    "code": 0,
+    "products": {
+        "id": 111,
+        "parentId": 1,
+        "productName": "维护服务尊享版",
+        "productCode": "1",
+        "synopsis": "1",
+        "details": "产品资费：199/月\r\n产品详情：7个信息点（包含路由器、交换机维护）+7台电脑维护\r\n承诺服务期限：12个月\r\n主要客户群：中小企业、厂区、园区等",
+        "clickNumber": 47,
+        "isHot": "1",
+        "isNew": "1",
+        "productStatus": "1",
+        "orderNumber": 2,
+        "shareNumber": 0,
+        "picAddr": "",
+        "appSceFlag": "2",
+        "orderBy": null,
+        "createTime": "2020-03-11T03:04:06.000+0000",
+        "createBy": null,
+        "updateTime": "2020-03-20T12:22:26.000+0000",
+        "updateBy": 3,
+        "delType": "1",
+        "ext1": "",
+        "ext2": "",
+        "ext3": "",
+        "attrName": "时长单位",
+        "goodsId": 1,
+        "contactNumber": null,
+        "priceList": [
+            {
+                "price": 89,
+                "optionValue": "月"
+            },
+            {
+                "price": 199,
+                "optionValue": "年"
+            }
+        ]
+    }
+}

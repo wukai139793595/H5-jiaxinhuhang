@@ -1,0 +1,12 @@
+demand.vue——发需求
+index.vue——首页图标
+info.vue——完善信息
+order.vue——我的订单
+orderDetail.vue——订单详情
+product.vue——找产品
+productDetail.vue——产品详情
+submitOrder.vue——提交订单
+
+
+
+产品详情.jpg 订单详情.jpg 我的订单.jpg 提交订单.jpg 

@@ -1,0 +1,99 @@
+
+
+.setting{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    .condition-wrap{
+        width:100%;
+        background-color: #fff;
+        .condition-item{
+            width: 100%;
+            box-sizing: border-box;
+            padding: 18px 40px;
+            border-bottom:1px solid  #f7f6f6;
+            margin-top: 18px;
+            .condition-name{
+                font-size: 32px;
+                color: #333333;
+            }
+            .phone{
+                float: right;
+                font-size: 32px;
+                color: #999999;
+            }
+        }
+        .icon-right{
+            float: right;
+            display: inline-block;
+            margin-top: 6px;
+            width: 30px;
+            height: 30px;
+            background-size: 100% 100%;
+            background-position: 0 0;
+            background-image: url(~@/assets/images/search/right.png);
+        }
+    }
+    .btn-wrap{
+        position: absolute;
+        left: 0;
+        bottom: 200px;
+        width: 100%;
+        text-align: center;
+        button{
+            width: 686px;
+            height: 88px;
+            background-color: #189bff;
+            line-height: 88px;
+            font-size: 36px;
+            color: #fff;
+            border-radius: 6px;
+        }
+    }
+    .van-popup{
+        border-radius: 20px;
+        overflow:visible;
+    }
+    .qr-wrap,.info-wrap{
+        position: relative;
+        box-sizing: border-box;
+        padding: 40px;
+        border-radius: 20px;
+        background-image:url(~@/assets/images/setting/qr-bg.png);
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        .qrcode{
+            margin: 0 auto;
+        }
+        p{
+            margin-top: 30px;
+            font-size: 32px;
+            color:#333;
+            text-align: center;
+        }
+    }
+    .info-wrap{
+        width: 66vw;
+        h4{
+            font-size: 40px;
+            margin: 0 0 30px;;
+            text-align: center;
+        }
+        li{
+            font-size: 28px;
+            margin-bottom: 40px;
+            color: #666;
+        }
+    }
+    .close{
+        position: absolute;
+        right: 0;
+        top: -80px;
+        width: 50px;
+        height:50px;
+        background-image:url(~@/assets/images/close.png);
+        background-size: 100% 100%;
+        background-position: 0 0;
+    }
+}

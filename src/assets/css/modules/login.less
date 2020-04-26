@@ -1,0 +1,57 @@
+.login {
+  background: url(../../../assets/images/home/bg.jpg) 0 0 no-repeat;
+  background-size: 100% 100%;
+  padding-top: 340px;
+  padding-left: 5%;
+  padding-right: 5%;
+  .systemTit {
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+  }
+  .loginForm {
+    margin-top: 200px;
+    .van-field {
+      padding-left: 80px;
+      padding-right: 20px;
+      &.phone {
+        background: url(../../../assets/images/home/icon-tel.png) 26px 20px no-repeat;
+        background-size: 40px 50px;
+      }
+      &.verification {
+        background: url(../../../assets/images/home/icon-verification.png) 26px 26px no-repeat;
+        background-size: 40px 50px;
+        /deep/ .van-field__button {
+          button {
+            color: #24a0ff;
+            width: 166px;
+            height: 60px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            line-height: 60px;
+            background-color: #d5e7f5;
+          }
+          .send{
+            color: #666;
+          }
+        }
+      }
+      &:after {
+        border-bottom-color: #999;
+        right: 16px;
+      }
+    }
+    .btn {
+      border-radius: 5px;
+      margin-top: 80px;
+      height: 80px;
+      background: url(../../../assets/images/home/btn-bg.png) 0 0 no-repeat;
+      background-size: 100% 100%;
+      color: #fff;
+      font-size: 36px;
+      text-align: center;
+      line-height: 80px;
+    }
+
+  }
+}

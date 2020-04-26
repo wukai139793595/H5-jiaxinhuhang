@@ -1,0 +1,197 @@
+{
+    "msg": "success",
+    "code": 0,
+    "page": {
+        "totalCount": 5,
+        "pageSize": 10,
+        "totalPage": 1,
+        "currPage": 1,
+        "list": [
+            {
+                "id": 115,
+                "parentId": 1,
+                "productName": "维护服务基础版13",
+                "productCode": "123456",
+                "synopsis": "1",
+                "details": "产品资费：199/月\r\n产品详情：7个信息点（包含路由器、交换机维护）+7台电脑维护\r\n承诺服务期限：12个月\r\n主要客户群：中小企业、厂区、园区等",
+                "clickNumber": 27,
+                "isHot": "1",
+                "isNew": "1",
+                "productStatus": "1",
+                "orderNumber": 2,
+                "shareNumber": 0,
+                "picAddr": "",
+                "appSceFlag": "2",
+                "orderBy": null,
+                "createTime": "2020-03-11T03:04:06.000+0000",
+                "createBy": null,
+                "updateTime": "2020-03-20T12:11:38.000+0000",
+                "updateBy": 2,
+                "delType": "1",
+                "ext1": "",
+                "ext2": "",
+                "ext3": "",
+                "attrName": "流量",
+                "goodsId": 7,
+                "contactNumber": null,
+                "priceList":[
+                    {
+                        "price":89,
+                        "optionValue":"月"
+                    },{
+                        "price":199,
+                        "optionValue":"年"
+                    }
+                ]
+            },
+            {
+                "id": 114,
+                "parentId": 1,
+                "productName": "维护服务基础版12",
+                "productCode": "12345",
+                "synopsis": "1",
+                "details": "产品资费：199/月\r\n产品详情：7个信息点（包含路由器、交换机维护）+7台电脑维护\r\n承诺服务期限：12个月\r\n主要客户群：中小企业、厂区、园区等",
+                "clickNumber": 3,
+                "isHot": "1",
+                "isNew": "1",
+                "productStatus": "1",
+                "orderNumber": 2,
+                "shareNumber": 0,
+                "picAddr": "",
+                "appSceFlag": "2",
+                "orderBy": null,
+                "createTime": "2020-03-11T03:04:06.000+0000",
+                "createBy": null,
+                "updateTime": "2020-03-20T12:03:29.000+0000",
+                "updateBy": 2,
+                "delType": "1",
+                "ext1": "",
+                "ext2": "",
+                "ext3": "",
+                "attrName": "流量",
+                "goodsId": 6,
+                "contactNumber": null,
+                "priceList":[
+                    {
+                        "price":89,
+                        "optionValue":"月"
+                    },{
+                        "price":199,
+                        "optionValue":"年"
+                    }
+                ]
+            },
+            {
+                "id": 113,
+                "parentId": 1,
+                "productName": "维护服务基础版1",
+                "productCode": "1234",
+                "synopsis": "1",
+                "details": "产品资费：199/月\r\n产品详情：7个信息点（包含路由器、交换机维护）+7台电脑维护\r\n承诺服务期限：12个月\r\n主要客户群：中小企业、厂区、园区等",
+                "clickNumber": 1,
+                "isHot": "1",
+                "isNew": "1",
+                "productStatus": "1",
+                "orderNumber": 2,
+                "shareNumber": 0,
+                "picAddr": "",
+                "appSceFlag": "2",
+                "orderBy": null,
+                "createTime": "2020-03-11T03:04:06.000+0000",
+                "createBy": null,
+                "updateTime": "2020-03-16T08:51:03.000+0000",
+                "updateBy": 123,
+                "delType": "1",
+                "ext1": "",
+                "ext2": "",
+                "ext3": "",
+                "attrName": "流量",
+                "goodsId": 5,
+                "contactNumber": null,
+                "priceList":[
+                    {
+                        "price":89,
+                        "optionValue":"月"
+                    },{
+                        "price":199,
+                        "optionValue":"年"
+                    }
+                ]
+            },
+            {
+                "id": 112,
+                "parentId": 1,
+                "productName": "维护服务基础版",
+                "productCode": "123",
+                "synopsis": "1",
+                "details": "产品资费：199/月\r\n产品详情：7个信息点（包含路由器、交换机维护）+7台电脑维护\r\n承诺服务期限：12个月\r\n主要客户群：中小企业、厂区、园区等",
+                "clickNumber": 1,
+                "isHot": "1",
+                "isNew": "1",
+                "productStatus": "1",
+                "orderNumber": 3,
+                "shareNumber": 0,
+                "picAddr": "",
+                "appSceFlag": "2",
+                "orderBy": null,
+                "createTime": "2020-03-11T03:04:06.000+0000",
+                "createBy": null,
+                "updateTime": "2020-03-20T12:11:39.000+0000",
+                "updateBy": 2,
+                "delType": "1",
+                "ext1": "",
+                "ext2": "",
+                "ext3": "",
+                "attrName": "流量",
+                "goodsId": 3,
+                "contactNumber": null,
+                "priceList":[
+                    {
+                        "price":59,
+                        "optionValue":"月"
+                    },{
+                        "price":199,
+                        "optionValue":"年"
+                    }
+                ]
+            },
+            {
+                "id": 111,
+                "parentId": 1,
+                "productName": "维护服务尊享版",
+                "productCode": "1",
+                "synopsis": "1",
+                "details": "产品资费：199/月\r\n产品详情：7个信息点（包含路由器、交换机维护）+7台电脑维护\r\n承诺服务期限：12个月\r\n主要客户群：中小企业、厂区、园区等",
+                "clickNumber": 44,
+                "isHot": "1",
+                "isNew": "1",
+                "productStatus": "1",
+                "orderNumber": 2,
+                "shareNumber": 0,
+                "picAddr": "",
+                "appSceFlag": "2",
+                "orderBy": null,
+                "createTime": "2020-03-11T03:04:06.000+0000",
+                "createBy": null,
+                "updateTime": "2020-03-20T11:54:05.000+0000",
+                "updateBy": 3,
+                "delType": "1",
+                "ext1": "",
+                "ext2": "",
+                "ext3": "",
+                "attrName": "时长单位",
+                "goodsId": 1,
+                "contactNumber": null,
+                "priceList":[
+                    {
+                        "price":49,
+                        "optionValue":"月"
+                    },{
+                        "price":199,
+                        "optionValue":"年"
+                    }
+                ]
+            }
+        ]
+    }
+}

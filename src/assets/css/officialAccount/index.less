@@ -1,0 +1,52 @@
+.index{
+  background:url('~@/assets/images/officialAccount/index/bg.jpg') 0 0 no-repeat #1e1b52;
+  background-size:100%;
+  .scrollTip{
+    &.van-notice-bar{
+      height:100px;
+      background-color:rgba(94,74,82,0.8);
+      background-size:100% 100%;
+      color:#fff;
+      font-size:32px;
+      .van-notice-bar__content{
+        transform:scale(0.1,0.1);
+      }
+
+    }
+  }
+  .partList{
+    display:flex;
+    margin:40px 40px 10px;
+    .part{
+      flex:1;
+      padding:40px 0 60px;
+      min-height:50px;
+      &.selcted{
+        background:url('~@/assets/images/officialAccount/index/selectPart.png') center 0 no-repeat;
+        background-size:100% 100%;
+      }
+      &:nth-child(2){
+        padding-top:30px;
+        margin:0 50px;
+      }
+      img{
+        display:block;
+        width:35%;
+        margin:0 auto;
+      }
+      .text{
+        color:#eee;
+        display:block;
+        text-align:center;
+        margin-top:20px;
+        font-size:32px;
+      }
+    }
+  }
+  .linkage{
+    // margin:0 40px 40px;
+  }
+  .info{
+    margin:40px 0;
+  }
+}

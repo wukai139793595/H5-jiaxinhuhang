@@ -1,0 +1,97 @@
+.product {
+  margin-bottom:40px;
+  background: url('~@/assets/images/officialAccount/index/bg.jpg') 0 0 no-repeat #1e1b52;
+  background-size: 100%;
+  //padding: 0 40px 10px;
+  &.isQuote {
+    background-image: none;
+    background-color: #1e1b52;
+    padding: 0;
+    .scrollTip{
+      display:none;
+    }
+    .productList{
+      margin:0 40px;
+    }
+  }
+  .scrollTip{
+    margin-bottom:40px;
+    &.van-notice-bar{
+      height:100px;
+      background-color:rgba(94,74,82,0.8);
+      background-size:100% 100%;
+      color:#fff;
+      font-size:32px;
+      .van-notice-bar__content{
+        transform:scale(0.1,0.1);
+      }
+
+    }
+  }
+  .productList {
+    margin:40px 40px 10px;
+    .perProduct {
+      min-height: 100px;
+      position: relative;
+      margin-bottom: 30px;
+      &:nth-child(odd) .script {
+        left: 30px;
+      }
+      &:nth-child(even) .script {
+        right: 30px;
+      }
+      img {
+        width: 100%;
+      }
+      .script {
+        position: absolute;
+        width: 50%;
+        text-align: center;
+        top: 60px;
+        .title {
+          color: white;
+          font-size:32px;
+        }
+        .unit {
+          color: #ffb005;
+          line-height: 100px;
+          margin-bottom: 5px;
+          font-size:28px;
+          .num {
+            font-size: 60px;
+            font-weight: bold;
+            position: relative;
+            top: 10px;
+          }
+        }
+        .btn {
+          height: 70px;
+          line-height: 70px;
+          width: 70%;
+          margin: 0 auto;
+          background: url('~@/assets/images/officialAccount/index/btnBg.png') 0 0 no-repeat;
+          background-size: 100% 100%;
+          color: #211b4f;
+          font-weight: bold;
+          font-size:32px;
+        }
+      }
+    }
+  }
+  .checkSign {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #f8c480;
+    border-radius: 30px;
+    background: url('~@/assets/images/officialAccount/index/select1.png') 0 0 no-repeat;
+    background-size: 100% 100%;
+    &.active {
+      background: url(../../../assets/images/officialAccount/index/select2.png) 0 0 no-repeat;
+      background-size: 100% 100%;
+      border: none;
+    }
+  }
+}
